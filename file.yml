@@ -3,8 +3,8 @@
   hosts: all
   become: true
   tasks:
-  - name: File creation 
-    file:                              #module
-      path: home/ubuntu/newone.txt
-      state: touch
+   - name: File creation 
+     file:                              #module
+       path: home/ubuntu/newone.txt
+       state: touch
  
