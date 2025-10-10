@@ -1,7 +1,7 @@
 ---
-name: whatever
-hosts: all
-become: true
-- tasks:
-    name: create-user
-    user: aneesh-sahare #module
+- name: whatever
+  hosts: all
+  become: true
+   - tasks:
+       name: create-user
+       user: aneesh-sahare #module
