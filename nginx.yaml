@@ -22,3 +22,4 @@
         dest: /var/www/html/index.html
         mode: "0644"
 
+##ansible-playbook -i inventory nginx.yml
